@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA</title>
+    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+</head>
+
+<body>
+    <div class="input-container">
+        <h2>1. Count Node Ocurrence in Tree</h2>
+        <div>
+            <label for="bst-word-count">Enter a word to check its occurrence:</label>
+            <input type="text" id="bst-word-count">
+        </div>
+        <button class="btn first-btn" type="submit">Submit</button><br> <br>
+        <div>
+            <p class="" id="show-word-count"></p>
+        </div>
+    </div>
+
+    <div class="q2">
+        <div class="input-container">
+            <h2>2. Prompt to Sort Data</h2>
+            <div>
+                <!-- <label for="sort-data-1">Enter 1 to sort by First Name &nbsp; Enter 2 to sort by Last Name &nbsp; Enter 3 to
+                    sort by Age</label> -->
+                <button class="btn" type="submit" id="sort-data-1">Click to Sort Data</button>
+            </div>
+        </div>
+        <table id="staff-records" class="sort-table">
+            <thead id="table-head">
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+
+    <div class="input-container">
+        <h2>4. Match Words in Dictionary</h2>
+
+        <button class="btn" type="submit" id="scrabble-find-btn">findWords</button><br> <br>
+        <div>
+            <p class="" id="show-words"></p>
+        </div>
+    </div>
+
+    <div class="q2">
+        <div class="input-container">
+            <h2>2. Bank Data</h2>
+            <div>
+                <!-- <label for="sort-data-1">Enter 1 to sort by First Name &nbsp; Enter 2 to sort by Last Name &nbsp; Enter 3 to
+                        sort by Age</label> -->
+                <!-- <button class="btn" type="submit" id="sort-data-1">Click to Sort Data</button> -->
+            </div>
+        </div>
+        <h3>Customer Account Information</h3>
+
+        <table id="customer-account-info" ">
+            <thead id=" table-head2">
+            </thead>
+            <tbody id="table-body3"></tbody>
+        </table>
+        <h3>Customer Account Transaction</h3>
+
+        <table id="customer-account-info" ">
+                    <thead id=" table-head2">
+            </thead>
+            <tbody id="table-body3"></tbody>
+        </table>
+    </div>
+
+    <script src="./scripts/bst_word_count.js"></script>
+    <script src="./fetch_data.js"></script>
+    <script src="./scripts/find_dict_words.js"></script>
+    <script src="index.js">
+    </script>
+
+</body>
+
+</html>
