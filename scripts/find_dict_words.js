@@ -46,12 +46,10 @@ function generateOutput(matchedWord, givenWordLetter) {
 
 function lookUpWord(givenDict, givenWord) {
     let splitWord = givenWord.split('');
-    console.log(splitWord)
 
     var cacheFromGiven = "";
     for (let i in splitWord) {
         cacheFromGiven += splitWord[i];
-        console.log(cacheFromGiven)
 
     }
 
