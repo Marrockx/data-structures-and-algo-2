@@ -6,7 +6,6 @@ async function getTransData() {
     let res = await fetch('./data/customer_account_transaction.csv');
 
     const data = await res.text();
-    console.log(data);
 
     return data;
 }

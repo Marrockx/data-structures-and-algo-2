@@ -6,7 +6,6 @@ async function getInfoData() {
     let res = await fetch('./data/customer_account_info.csv');
 
     const data = await res.text();
-    console.log(data);
 
     return data;
 }
